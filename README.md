@@ -6,12 +6,12 @@ account.
 
 # Data Gathering
 The data was gathered from three different sources:
-● The twitter-archive-enchaced.csv was downloaded manually and I used the
+* The twitter-archive-enchaced.csv was downloaded manually and I used the
 pandas function read_csv to read it into a dataframe.
-● The image-prediction.tsv was downloaded programmatically using the
+* The image-prediction.tsv was downloaded programmatically using the
 requests library and I used the pandas function read_csv to read it into a
 dataframe.
-● The tweet-json.txt was gathered using the Twitter API and the tweepy library.
+* The tweet-json.txt was gathered using the Twitter API and the tweepy library.
 Data Assessing
 After gathering the data and loading it into three different dataframes, I assessed it
 both visually and programmatically and the following quality and tidiness issues were
@@ -40,16 +40,16 @@ dataframe should be just one categorical column.
 # Data Cleaning
 Finally, I copied the original data and cleaned it using a range of Python and pandas
 functions such as:
-● Replacing incorrect values with the null value using replace
-● Dropping rows that weren't useful for the analysis, such as retweets and
+* Replacing incorrect values with the null value using replace
+* Dropping rows that weren't useful for the analysis, such as retweets and
 replies from the WeRateDogs account
-● Used the melt function from pandas to create a categorical column for the
+* Used the melt function from pandas to create a categorical column for the
 different types of dogs (doggo, floffer, pupper and puppo)
-● Converted data types from columns that were int and should be strings
-● Converted data types from columns that were strings and should be int
-● Joined all the three dataframes into a single master dataframe
-● Converted columns with information about date and time to the datetime data
+* Converted data types from columns that were int and should be strings
+* Converted data types from columns that were strings and should be int
+* Joined all the three dataframes into a single master dataframe
+* Converted columns with information about date and time to the datetime data
 type
-● Replaced names of dogs that weren't correct with the null value
-● Corrected the rating denominator so that it would be 10 for all cases, as
+* Replaced names of dogs that weren't correct with the null value
+* Corrected the rating denominator so that it would be 10 for all cases, as
 expected
