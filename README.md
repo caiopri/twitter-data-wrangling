@@ -1,7 +1,7 @@
 # twitter-data-wrangling
 Project 4 from Udacity Data Analyst Nanodegree
 # Introduction
-In this project I gathered, assessed and cleaned data from the WeRateDogs twitter
+In this project I gathered, assessed and cleaned data from the [WeRateDogs](https://twitter.com/dog_rates) twitter
 account.
 
 # Data Gathering
